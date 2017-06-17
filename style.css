@@ -1,0 +1,114 @@
+@keyframes gradient {
+    0% {
+        background-position: -468px 0
+    }
+    100% {
+        background-position: 468px 0
+    }
+}
+
+.background {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: gradient;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    height: 100px;
+    position: relative;
+}
+
+.item {
+    background: #fff;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 0 auto;
+    max-width: 472px;
+    min-height: 80px;
+}
+
+.mask {
+    background: #fff;
+    position: absolute;
+}
+
+.mask.header-top {
+    height: 10px;
+    top: 0;
+    right: 0;
+    left: 40px;
+}
+
+.mask.header-bottom {
+    height: 10px;
+    top: 20px;
+    right: 0;
+    left: 40px;
+}
+
+.mask.header-rightside {
+    height: 10px;
+    top: 10px;
+    right: 0;
+    left: 350px;
+}
+
+.mask.header-leftside {
+    height: 30px;
+    top: 10px;
+    left: 40px;
+    right: 425px
+}
+
+.mask.middle-rightside {
+    height: 10px;
+    right: 0;
+    top: 30px;
+    left: 250px
+}
+
+.mask.middle-top {
+    height: 10px;
+    top: 40px;
+    right: 0;
+    left: 0px;
+}
+
+.mask.middle-bottom {
+    height: 10px;
+    right: 0;
+    top: 50px;
+    left: 0;
+}
+
+.mask.bottom-top {
+    height: 10px;
+    right: 0;
+    top: 60px;
+    left: 420px;
+}
+
+.mask.bottom-middle {
+    height: 10px;
+    right: 0;
+    top: 70px;
+    left: 0;
+}
+
+.mask.bottom-bottom {
+    height: 10px;
+    right: 0;
+    top: 80px;
+    left: 390px;
+}
+
+.mask.bottom {
+    height: 10px;
+    right: 0;
+    top: 90px;
+    left: 0px;
+}
